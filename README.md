@@ -1,3 +1,5 @@
+# Deprecated. Files moved into https://github.com/emptythevoid/ezemrx-utils
+
 # ReadMe
 
 This is a project to override a page limit when doing a TWAIN scan with ezEMRx. The scan function in ezERMRx generates a jnlp. Firefox is normally configured to open this file type using the javaws.exe.  The jnlp file contains a parameter that limits the number of pages scanned to 15.  This project will intercept the jnlp before it gets to javaws, change the number of pages (currently set to 99) and then send the modified jnlp on to javaws.
